@@ -1,0 +1,25 @@
+<!-- 圈子内容 -->
+    <block wx:for="{{quan_data}}" wx:key="id_2">
+        <view class='quan_box'>
+            <view class='message_1'>
+                <!-- 头像信息 -->
+                <view class='message'>
+                    <image class='mpic_1' src='{{item.pic}}'></image>
+                    <text class='m_name'>{{item.name}}</text>
+                </view>
+                <!-- 圈子文字和图片 -->
+                <text class='m_content'>{{item.content}}</text>
+                <view class='m-pic'>
+                    <image  wx:if="{{item.mpic==''?false:true}}" bindtap='previewImage' data-index="{{index}}" mode="widthFix" src='{{item.mpic}}'></image>
+                </view>
+                <!-- 时间和点赞收藏 -->
+                <view class='m_tools'>
+                    <text class='time'>{{item.time}}</text>
+                    <view class='after'>
+                        <image class='like' src='/images/delete.png' bindtap='delete' data-index='{{index}}'></image>
+                    </view>
+                </view>
+               
+            </view>
+        </view>
+    </block>

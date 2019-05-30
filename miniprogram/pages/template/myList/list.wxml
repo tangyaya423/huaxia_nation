@@ -1,0 +1,35 @@
+<!-- 大列表 -->
+<template name="myList" >
+	<view class = "myList">
+		<template is="list"/>
+	</view>
+</template>
+
+<!-- 分类列表 -->
+<template name="list">
+	<view class = "list">
+		<template is="list_1"  wx:for="{{list}}" wx:key = "{{index}}" data = "{{item}}"/>
+	</view>
+</template>
+
+<!-- 内容列表 -->
+<template name="list_1">
+	<view class = "list_1">
+		<template is="list_2" wx:for="{{item}}" wx:key = "{{index}}" data = "{{item}}"/>
+	</view>
+</template>
+
+<!-- 单项 -->
+<template name="list_2">
+	<navigator 
+					class = "list_2"
+					url="{{item.url}}"
+					hover-class="navigator-hover">
+		<image  class="icon" src="{{item.icon}}"></image>
+		<view class = "list_3">{{item.name}}</view> 
+		<view class="list_3content"  bindtap='copy' data-id='{{item.id}}'>
+					<text>{{item.text}}</text>
+					<image src='{{item.src}}'></image>
+   	</view>
+	</navigator> 
+</template>

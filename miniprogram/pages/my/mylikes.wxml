@@ -1,0 +1,15 @@
+<!--pages/my/mylikes.wxml-->
+<view class = "box">
+	<view class = "information">{{clecte.name}}{{clecte.time}}</view>
+	<view class = "content">
+		<!-- <text class = "topic">你好吗</text> -->
+		<text class = "essay">{{clecte.content}}</text>
+		<view class = "allpic" wx:if="{{clecte.mpic==''?false:true}}">
+			<image
+						bindtap="previewImage" 
+						class ="picture" 
+						src='{{clecte.mpic}}'
+						></image>
+		</view>
+	</view>
+</view>

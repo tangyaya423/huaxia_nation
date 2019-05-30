@@ -1,0 +1,49 @@
+<!--logs.wxml-->
+<view class="food">
+  <block>
+    <view wx:for="{{item}}" wx:key="" wx:if="{{item.key==font}}" class="gp">
+      <view class="pic" bindtap='click'  data-index="{{item.font}}" data-img="{{item.img}}">
+       <image src="{{item.img}}"></image>
+      </view>
+      <view class='font'>
+        <text class="font_c">{{item.font}}</text>
+      </view>
+    </view>
+    <view wx:for="{{item2}}" wx:key="" wx:if="{{item.key==font}}" class="gp">
+      <view class="pic" bindtap='click'  data-index="{{item.font}}" data-img="{{item.img}}">
+       <image src="{{item.img}}"></image>
+      </view>
+      <view class='font'>
+        <text class="font_c">{{item.font}}</text>
+      </view>
+    </view>
+  </block>
+  <view class='kat {{aniStyle?" ":"slidedown dis"}}' bindtap="handletap"  catchtouchmove="handletouchmove" >
+    <image src='{{img}}' class="slj_img"></image>
+    <view class='fir'></view>
+    <view class='sec'></view>
+    <view class='thi'>
+      <block  wx:for="{{food_infor}}" wx:key="" wx:if="{{item.key == font}}">
+        <text>{{item.food_infor}}</text>
+      </block>
+    </view>
+    <view class="clo" animation='{{attentionAnim}}'>
+      <view class="clo_1"></view>
+      <view class="clo_2"></view>
+      <view class="clo_3"></view>
+    </view>
+  </view>
+  <view class="clo_t" catchtouchstart="handletouchmove2" >
+    <view class="jt" animation='{{attentionAnim}}' >
+        <view class="clo_t_1">
+          <image src="https://662d-f-1fcd37-1258949571.tcb.qcloud.la/上三角.png"></image>
+        </view>
+        <view class="clo_t_2">
+          <image src="https://662d-f-1fcd37-1258949571.tcb.qcloud.la/上三角.png"></image>
+        </view>
+        <view class="clo_t_3">
+          <image src="https://662d-f-1fcd37-1258949571.tcb.qcloud.la/上三角.png"></image>
+        </view>
+    </view>
+  </view>
+</view>

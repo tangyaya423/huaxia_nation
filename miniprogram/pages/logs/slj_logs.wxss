@@ -1,0 +1,149 @@
+
+.gp{
+  width:47%;
+  height:280rpx;
+  border-radius:10rpx;
+  float: left;
+  margin-top:30rpx;
+  margin-left:2%;
+  z-index: 90;
+  box-shadow: 0 5rpx 10rpx #D4460D;
+}
+.pic{
+  width:100%;
+  height:210rpx;
+  overflow: hidden;
+}
+.pic image{
+  width:100%;
+  height:100%;
+  margin: auto;
+}
+.font{
+  width:100%;
+  height:70rpx;
+  /* background-color:#C1874C; */
+  text-align: center;
+  font-size:90%;
+}
+.font_c{
+  display: inline-block;
+  margin-top:10rpx;
+  color:#E24233;
+  font-size:28rpx;
+  letter-spacing: 2rpx;
+}
+.kat{
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  z-index: 1000;
+}
+.slj_img{
+  position: absolute;
+  width:35%;
+  height:45%;
+  bottom:2%;
+}
+.slidedown {
+  animation: slidedown 0.5s linear ;
+  animation-fill-mode:forwards;
+}
+@keyframes slidedown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+.fir{
+  width:40rpx;
+  height:40rpx;
+  position:absolute;
+  top:50%;
+  left:25%;
+  border:1px solid white;
+  border-radius:50%;
+}
+.sec{
+  width:60rpx;
+  height:60rpx;
+  position:absolute;
+  top:41%;
+  left:29%;
+  border:1px solid white;
+  border-radius:50%;
+}
+.thi{
+  width:70%;
+  /* height:350rpx; */
+  position:absolute;
+  top:12%;
+  left:27%;
+  border:1px solid white;
+  border-radius:50%;
+  /* text-align: center; */
+}
+.thi text{
+  color:white;
+  display: block;
+  width:80%;
+  margin: 10rpx auto;
+  font-size:80%;
+  margin-top:45rpx;
+  padding:30rpx;
+}
+.clo{
+  width:12%;
+  height:75rpx;
+  margin:0 auto;
+  position:absolute;
+  bottom: 0;
+  left:44%;
+}
+.clo_1,.clo_2,.clo_3{
+  width:100%;
+  height:50rpx;
+  background-image: url('http://r.photo.store.qq.com/psb?/V105gMI31vNHj3/BbpLN239V.XYiLTtgBVk5vZkpsFiFU4hDe.RloG*6H0!/r/dLYAAAAAAAAA');
+  background-size: 100% 100%;
+}
+.clo_2{
+  position: relative;
+  top:-35rpx;
+}
+.clo_3{
+  position: relative;
+  top:-70rpx;
+}
+.clo_t{
+  width:90%;
+  height:180rpx;
+  position:absolute;
+  bottom:50rpx;
+  /* border:1px solid red; */
+  margin: 0 5%;
+  z-index: 100;
+}
+.jt{
+  width:14%;
+  height:80rpx;
+  /* border:1px solid red; */
+  position: relative;
+  margin-top:100rpx;
+  margin-left:43%;
+}
+.clo_t_1 image,.clo_t_2 image,.clo_t_3 image{
+  width:100%;
+  height:40rpx;
+  /* border:1px solid red; */
+}
+.clo_t_2{
+  position: relative;
+  top:-30rpx;
+}
+.clo_t_3{
+  position: relative;
+  top:-60rpx;
+}

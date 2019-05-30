@@ -1,0 +1,29 @@
+<!-- 大列表 -->
+<template name = "list">
+  <view class="list">
+    <template is = "list_1" wx:for="{{list}}" data = "{{item}}"/>
+  </view>
+</template>
+
+<!-- 小列表 -->
+<template name = "list_1">
+  <view class= "list_1">
+    <template is = "list_2" wx:for="{{item}}" data = "{{item}}"/>
+    
+   <!-- {{item}} -->
+  </view>
+</template>
+
+<!-- 选项 -->
+<template name = "list_2">
+  <view class = "list_2">
+    <template is = "icon" wx:for="{{item}}" data = "{{item}}"/>
+  </view>
+</template>
+
+<!-- 头像 -->
+<template name = "icon">
+  <view class = "icon">
+      {{item}}
+  </view>
+</template>

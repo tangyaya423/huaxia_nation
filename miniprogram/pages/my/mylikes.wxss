@@ -1,0 +1,42 @@
+/* pages/my/mylikes.wxss */
+page{
+	background: white;
+}
+.box{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	padding: 10px;
+	/* background: pink; */
+}
+/* //标题的样式 */
+.topic{
+	display: block;
+	text-align:center;
+	line-height: 60px;
+	font-size: 17px;
+}
+.information{
+	font-size: 13px;
+	color: #b2b2b2;
+	line-height: 30px;
+}
+.allpic{
+	display:  flex;
+	/* flex-wrap: wrap; */
+}
+.picture{
+	/* display: inline-block; */
+	flex-grow:1;
+	 flex-shrink: 1;
+	margin: 5px;
+	background: #D63014;
+
+}
+.essay{
+	display: block;
+	font-size: 13pt;
+	line-height:20pt;
+	text-indent: 2em;
+	color: #353535
+}

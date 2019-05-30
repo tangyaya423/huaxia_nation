@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<import src="template/template.wxml" />
+<import src="template2/template2.wxml" />
+<view class="HomePage">
+    <view >
+        <swiper  indicator-dots='{{indicatorDots}}' autoplay="{{autoplay}}" interval='{{interval}}' circular='{{circular}}' indicator-active-color="#BE939E">
+            <swiper-item class='HP_1_1'>
+                <image src="{{image1}}"></image>
+            </swiper-item>
+            <swiper-item class='HP_1_1'>
+                <image src="{{image2}}"></image>
+            </swiper-item>
+            <swiper-item class='HP_1_1'>
+                <image src="{{image3}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    <view class='HP_2'>
+        <input class="search-input" placeholder="搜索民族"  bindinput="bindInput"  value="{{inputValue}}" placeholder-class='placeholder' />
+        <button class='search' bindtap="setSearchStorage">
+            <image src='../images/search.png'></image>
+        </button>
+    </view>
+    <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+        <template is="newsTemplate" data="{{...item}}" />
+    </block>
+
+    <view class='HP_33'>
+        <view style='display:{{display}}'>
+            <block wx:for="{{useData2}}" wx:for-item="item1" wx:key="key1">
+                <template is="newsTemplate2" data="{{...item1}}" />
+            </block>
+        </view>
+        <text style='display:{{display1}}' class='HP_33_1' bindtap='test'>查看更多</text>
+        <text style='display:{{display2}}' class='HP_33_1' bindtap='test2'>收起</text>
+    </view>
+    <view class='HP_4'>
+        <view class='HP_4_1' bindtap='goNewsTap'>
+            <image src="{{image4}}"></image>
+        </view>
+        <view class='HP_4_2' bindtap='goNewsTap1'>
+            <image src="{{image5}}"></image>
+        </view>
+    </view>
+    <view class='HP_5'>
+        <view class='HP_5_1' bindtap='goNewsTap2'>
+            <image src="{{image6}}"></image>
+        </view>
+        <view class='HP_5_2' bindtap='goNewsTap3'>
+            <image src="{{image7}}"></image>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,37 @@
+/* pages/home/nation/abstrict.wxss */
+.box{
+  width:90%;
+  /* height:100vh; */
+  /* border:1px solid #D73014; */
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+  margin:0rpx auto;
+}
+.tit{
+  text-align: center;
+  font-size:40rpx;
+  color:#D73014;
+  width:40%;
+  height:60rpx;
+  line-height: 60rpx;
+  margin:20rpx auto;
+  border-top:1px solid #D73014;
+  border-bottom:1px solid #D73014;
+
+}
+.con_font{
+  color:rgb(85, 83, 83);
+  line-height:45rpx;
+  margin-top:10rpx;
+  font-size:35rpx;
+   -webkit-box-orient: vertical;
+}
+.pic{
+  position: absolute;
+  bottom:5rpx;
+  width:100%;
+  opacity: 0.15;
+}
+.pic image{
+  width:100%;
+}

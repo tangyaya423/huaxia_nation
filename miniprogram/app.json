@@ -1,0 +1,54 @@
+{
+  "cloud":true,
+	"pages": [
+		"pages/index/index",
+		"pages/nation/nation",
+    "pages/nation/abstrict",
+		"pages/logs/logs",
+		"pages/logs/slj_logs",
+    "pages/slj_food/paiban/paiban",
+		"pages/slj_food/slj_food",
+		"pages/nationvideo/nationvideo",
+		"pages/quan/quan",
+		"pages/publish/publish",
+    "pages/my/my",
+    "pages/my/wenzhang",
+    "pages/my/about",
+		"pages/userConsole/userConsole",
+		"pages/storageConsole/storageConsole",
+		"pages/databaseGuide/databaseGuide",
+		"pages/addFunction/addFunction",
+		"pages/deployFunctions/deployFunctions",
+		"pages/chooseLib/chooseLib"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#D73014",
+		"navigationBarTitleText": "华夏民族",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"selectedColor": "#D63014",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"selectedIconPath": "/pages/images/HomePage.png",
+				"iconPath": "/pages/images/HomePage2.png"
+			},
+			{
+				"pagePath": "pages/quan/quan",
+				"text": "圈子",
+				"selectedIconPath": "/pages/images/Circle.png",
+				"iconPath": "/pages/images/Circle2.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"selectedIconPath": "/pages/images/mine2.png",
+				"iconPath": "/pages/images/mine.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

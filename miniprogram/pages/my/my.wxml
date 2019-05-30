@@ -1,0 +1,21 @@
+<!--pages/my/my.wxml-->
+<!-- 引入list模板 -->
+<import src="../template/myList/list.wxml"/>
+
+<view class = "myTop">
+  <view class = "head">
+	 <open-data type="userAvatarUrl"></open-data>
+    <!-- <image src="/images/head.jpg"></image> -->
+  </view>
+  <view class = "myID">
+    <open-data class='myName' type="userNickName" lang="zh_CN"></open-data>
+		<open-data class = "myModle" type="userCity" lang="zh_CN"></open-data>
+    
+  </view>
+  <view class = "back">
+  </view>
+</view>
+
+<template is="list" data="{{list}}"/>
+
+

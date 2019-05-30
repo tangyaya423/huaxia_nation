@@ -1,0 +1,3 @@
+<!--pages/my/test.wxml-->
+<text>pages/my/test.wxml</text>
+<button bindtap="hhh">进去</button>

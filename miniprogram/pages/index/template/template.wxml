@@ -1,0 +1,20 @@
+<template name="newsTemplate">
+<view class='HP_3'>
+        <view class='HP_3_1' bindtap='goNewsDetail' data-index="{{nation1}}">
+            <image src='{{image1}}'></image>
+            <text class='HP_3_1-1'>{{nation1}}</text>
+        </view>
+        <view class='HP_3_1' bindtap='goNewsDetail' data-index="{{nation2}}">
+            <image src='{{image2}}'></image>
+            <text class='HP_3_1-1'>{{nation2}}</text>
+        </view>
+        <view class='HP_3_1' bindtap='goNewsDetail' data-index="{{nation3}}">
+            <image src='{{image3}}'></image>
+            <text class='HP_3_1-1'>{{nation3}}</text>
+        </view>
+        <view class='HP_3_1' bindtap='goNewsDetail' data-index="{{nation4}}">
+            <image src='{{image4}}'></image>
+            <text class='HP_3_1-1'>{{nation4}}</text>
+        </view>
+</view>
+</template>

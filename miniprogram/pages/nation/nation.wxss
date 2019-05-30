@@ -1,0 +1,131 @@
+/* pages/nation/nation.wxss */
+.wholepage{
+  position: fixed;
+  width:100%;
+  height:100%;
+}
+.wholepage image{
+  z-index: -1;
+  opacity: 0.8;
+  width:100%;
+  height:100%;
+}
+.abTopic{
+	text-align: center;
+  width:100%;
+  height:50rpx;
+}
+.abTopic text{
+  font-size:40rpx;
+}
+.abText{
+  width:100%;
+  height:380rpx;
+  margin:10rpx 0;
+  overflow: hidden;
+}
+.abText text{
+  display: -webkit-box;
+  font-size:35rpx;
+  line-height:54rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:7;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.abdetail{
+  width:100%;
+  height:40rpx;
+  position: absolute;
+  bottom:60rpx;
+  font-size: 30rpx;
+}
+.abdetail text{
+  font-size:30rpx;
+}
+.pup{
+  width:100%;
+  height:60rpx;
+  line-height: 60rpx;
+  position: absolute;
+  bottom:0rpx;
+  left:0rpx;
+}
+/* 民族简介的样式 */
+.abstract{
+  width:100%;
+  height:570rpx;
+	position: absolute;
+	padding: 20rpx;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.685);
+	color: white;
+	text-align: center;
+  z-index: 3;
+}
+/* 收起动画 */
+.picUp{
+	animation: picup 0.5s linear;
+	animation-fill-mode:forwards;
+
+}
+@keyframes picup{
+	from{
+		top:0;
+	}
+  to {
+    top:-510rpx;
+  }
+}
+/* 展开动画 */
+.unfold{
+	animation: unfold 0.8s linear;
+	animation-fill-mode:forwards;
+}
+@keyframes unfold{
+	from{
+		top:-505rpx;
+	}
+  to {
+    top: 0;
+  }
+}
+.cloths{
+	position: absolute;
+  width:100%;
+  height:400rpx;
+  bottom:20rpx;
+}
+.cloth{
+	bottom: 50rpx;
+	height: 400rpx;
+	width:23%;
+  float: left;
+  margin:0rpx 1%;
+}
+.cloth image{
+	height:90%;
+  width:100%;
+	border: 3px dotted #D63014;
+	border-radius: 15px;
+	background:rgba(255, 255, 255, 0.7);
+	box-sizing: border-box;
+}
+.nagtiv{
+	position: absolute;
+	top: 15vh;
+  left:4%;
+}
+.go{
+	padding:2%;
+	width: 91%;
+	border-radius:30rpx;
+	border:5rpx dashed #D63014;
+	line-height:42rpx;
+	background:rgba(255, 255, 255, 0.7);
+	box-sizing: content-box;
+	font-size:30rpx;
+  color: #6A8AA9;
+  letter-spacing: 2rpx;
+}

@@ -1,0 +1,25 @@
+.HP_32{
+    width: 100%;
+    height: 150rpx;
+    background-color: red;
+}
+.HP_32_1{
+    width: 25%;
+    height: 150rpx;
+    text-align: center;
+    float: left;
+
+}
+.HP_32_1 image{
+    width: 52%;
+    height: 100rpx;
+    border-radius: 50%;
+    margin:0 27% -18rpx 27%;
+
+}
+.HP_32_1-1{
+font-size: 70%;
+color: #262424;
+margin-top: -100rpx;
+}
+

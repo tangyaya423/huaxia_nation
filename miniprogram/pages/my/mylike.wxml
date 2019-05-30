@@ -1,0 +1,30 @@
+<!--pages/my/mylike.wxml-->
+<view class = "box">
+  <!-- //引用模板滑动删除 -->
+  <view class="collect"	wx:for="{{clecte}}"  wx:key = "{{index}}" >
+    <slide-view width="600" height="250" slide-width="200" bindtap='tiaozhuan' data-index="{{index}}">
+      <view slot="left" class="l">
+       	<view>
+          <view class= "inTop">
+            <view class="pic"  >
+              <image wx:if="{{item.mpic==''?false:true}}" class = "image"src="{{item.mpic}}" style="display:{{item.pig}}"></image>
+            </view>
+            <view class = "information">
+              <view class = "text">{{item.content}}</view>
+            </view>
+          </view>
+          <view class = "inBottom">
+            <view class = "name">
+                {{item.name}}  {{item.time}} 
+            </view>
+          </view>
+        </view> 
+      </view>
+      <view slot="right" class="r">
+        <view class='delete' catchtap='delect' data-index="{{index}}">删除</view>
+      </view>
+    </slide-view>  
+  
+  </view>
+
+</view>

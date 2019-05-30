@@ -1,0 +1,52 @@
+<view class='Dance'>
+    <view class='dance_1'>
+      <view class='dance_1_1'>
+          <view class='dance_1_1_1'>
+            <view  class='dance_1_1_1_a'></view>
+            <view class='dance_1_1_1_c'>{{text_title1}}</view>
+            <view  class='dance_1_1_1_b'></view>
+          </view>
+          <view class='dance_1_1_2'>
+             <image src="{{image1}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='dance_3'>
+          {{text1}}
+        </view> 
+      </view>
+        
+    </view>
+
+
+
+    <view class='dance_1 dance'>
+      <view class='dance_1_1'>
+          <view class='dance_1_1_1'>
+            <view  class='dance_1_1_1_a'></view>
+            <view class='dance_1_1_1_c'>{{text_title2}}</view>
+            <view  class='dance_1_1_1_b'></view>
+          </view>
+          <view class='dance_1_1_2'>
+             <image src="{{image2}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='dance_3'>
+          {{text2}}
+        </view> 
+      </view>
+    </view>
+
+  <view class='dance_1 dance2'>
+      <view class='dance_1_1'>
+          <view class='dance_1_1_1'>
+            <view  class='dance_1_1_1_a'></view>
+            <view class='dance_1_1_1_c'>{{text_title3}}</view>
+            <view  class='dance_1_1_1_b'></view>
+          </view>
+          <view class='dance_1_1_2'>
+             <image src="{{image3}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='dance_3'>
+          {{text3}}   
+        </view> 
+      </view>
+    </view>
+</view>   

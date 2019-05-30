@@ -1,0 +1,149 @@
+Page{
+  margin:0;
+  padding: 0;
+}
+.top{
+  width:96%;
+  margin:40rpx auto 0rpx;
+  background-color: rgb(230, 141, 107);
+}
+.ear{
+  display:flex;
+  justify-content:space-between;
+  width:80%;margin:0 auto;
+}
+.left_ear{
+  width: 25rpx; 
+  height: 25rpx; 
+  background: #e68d6b none repeat scroll 0% 0%; 
+  border-radius: 100%; 
+  color: #ffffff;
+}
+.left_ear2{
+  width: 8px; 
+  height: 25px; 
+  background: #e68d6b none repeat scroll 0% 0%; 
+  margin-left: 2px; 
+  border-radius: 8px; 
+  margin-top: -28px; 
+  color: #ffffff;
+}
+.right_ear{
+  width: 25rpx; 
+  height: 25rpx; 
+  background: #e68d6b none repeat scroll 0% 0%; 
+  border-radius: 100%; 
+  color: #ffffff;
+}
+.right_ear2{
+  width: 8px; 
+  height: 25px; 
+  background: #e68d6b none repeat scroll 0% 0%; 
+  margin-left: 2px; 
+  border-radius: 8px; 
+  margin-top: -28px; 
+  color: #ffffff;
+}
+.tit_bor{
+  background: #e68d6b none repeat scroll 0% 0%; 
+  padding: 5px; 
+  margin-top: -15px; 
+  color: #ffffff;
+}
+.tit_bor2{
+  border:1px solid #ffffff;
+  padding:15px 10px;
+}
+.font{
+  font-size:14px;
+  color:#ffffff;
+  text-align:justify;
+  min-width:1px;
+}
+.qy{
+  margin-top:50rpx;
+  width: 96%;
+  margin:80rpx auto 0rpx;
+}
+.qy_bor{
+  border:2px solid rgb(230, 141, 107);
+  margin-bottom:15rpx;
+}
+.qy_tit{
+  width:200rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  margin:-40rpx auto 0rpx;
+  background:#E68D6B;
+  text-align:center;
+  border-radius:18rpx;
+}
+.qy_title{
+  font-size:32rpx;
+  color:rgb(255,255,255);
+}
+.qy_img{
+  width:94%;
+  margin:0 auto;
+}
+.qy_img image{
+  width: 92%;
+  margin-top:20rpx;
+  margin-left: 4%;
+}
+.qy_font{
+   width:94%;
+   margin:20rpx auto;
+}
+.qy_cont{
+  font-size:28rpx;
+  color:rgb(124,126,124);
+  justify-content:left;
+  -webkit-box-orient: vertical;
+  text-align:none;
+}
+.zz{
+  width:96%;
+  margin:70rpx auto 0rpx;
+}
+.zz_bor{
+  border:2px solid rgb(230, 141, 107);
+  padding:10px;
+  padding-top:0;
+}
+.zz_tit{
+  border-radius:18rpx;
+  width:200rpx;
+  height:80rpx;
+  line-height: 80rpx;
+  margin:-30rpx auto 0rpx;
+  background:#E68D6B;
+  text-align:center;
+  color: #ffffff;
+}
+.zz_title{
+  font-size:32rpx;
+  font-weight:bold;
+}
+.zz_cont1{
+  font-size:14px;
+  color:rgb(124,126,124);
+  min-width:1px;
+  text-align:justify;
+}
+.fg{
+  display:flex;
+  align-items:center;
+  margin-top:15px;
+}
+.xian{
+   flex:1;
+   border-top:1px solid rgb(124,126,124);
+}
+.crile{
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  border:1px solid rgb(124,126,124);
+  margin-left:10px;
+}

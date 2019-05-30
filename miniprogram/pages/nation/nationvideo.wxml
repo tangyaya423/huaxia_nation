@@ -1,0 +1,18 @@
+<view class='culture'>
+  <view class='culture_2'>
+     <video src="{{src}}" custom-cache="{{false}}"></video>
+  </view>
+      <view class='culture_3'>
+      <view class='culture_3_1'>
+        <view class='culture_3_1_1'>
+          {{title}}
+        </view>
+      </view>
+
+      <view class='culture_3_2'>
+        <view class='culture_3_2_1'></view>
+        {{text}}
+      </view>
+  </view>
+</view>
+ 

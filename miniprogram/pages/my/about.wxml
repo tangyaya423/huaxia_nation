@@ -1,0 +1,6 @@
+<!--pages/my/about.wxml-->
+<import src="../template/myList/list.wxml"/>
+
+<view class = "myList">
+	<template is="list" data="{{list}}" />
+</view>

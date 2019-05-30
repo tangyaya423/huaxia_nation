@@ -1,0 +1,46 @@
+<view class="top">
+    <view class="ear">
+        <view>
+            <view class='left_ear'></view>
+            <view class='left_ear2'></view>
+        </view>
+        <view>
+            <view class="right_ear"></view>
+            <view class='right_ear2'></view>
+        </view>
+    </view>
+    <block>
+      <view class='tit_bor' wx:for="{{inform}}"  wx:key="" wx:if="{{item.key==font}}" >
+          <view class='tit_bor2'>
+              <text class="font"  decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.information}}</text>
+          </view>
+      </view>
+      <view class='tit_bor' wx:for="{{inform2}}"  wx:key="" wx:if="{{item.key==font}}" >
+          <view class='tit_bor2'>
+              <text class="font"  decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.information}}</text>
+          </view>
+      </view>
+    </block>
+</view>
+<view class="qy">
+    <view class="qy_bor">
+        <view class='qy_tit'>
+          <text class="qy_title">菜品详细</text>
+        </view>
+        <view class='qy_img'>
+            <image src="{{img}}"></image>
+        </view>
+        <block>
+        <view class='qy_font'  wx:for="{{inform}}"  wx:key="" wx:if="{{item.key==font}}">
+            <text class="qy_cont"  decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.history}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.history2}}
+            </text>
+        </view>
+        <view class='qy_font'  wx:for="{{inform2}}"  wx:key="" wx:if="{{item.key==font}}">
+            <text class="qy_cont"  decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.history}}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.history2}}
+            </text>
+        </view>
+        </block>
+    </view>
+</view>

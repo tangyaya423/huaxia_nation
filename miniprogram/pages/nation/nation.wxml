@@ -1,0 +1,35 @@
+<view class='wholepage'>
+  <image src='cloud://f-1fcd37.662d-f-1fcd37/换装页面背景3.png'></image>
+  <view class= "box">
+    <view class= "abstract {{shrink}}" animation="{{animationBack}}">
+      <view class="abTopic"><text>民族简介</text></view>
+      <block>
+        <view class="abText" wx:for="{{nation}}" wx:key="" wx:if="{{item.key==font}}">
+          <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.introduce}}</text>
+        </view>
+      </block>
+      <view class= "abdetail" animation="{{animationMore}}"	bindtap='more'><text>更多详情>></text></view>
+      <view bindtap='picUp' class="pup">{{display}}</view>
+    </view>
+  </view>
+  <block wx:for="{{nation}}" wx:key="" wx:if="{{item.key == font}}">
+    <view class="nagtiv">
+      <view class="go">{{item.cloth_infor}}
+        <text style='color:#D73014;line-height:40rpx;display:block;'>　想了解更多？点击下方的民族人物吧！</text>
+      </view>
+    </view>
+  </block>
+  <view class="cloths">
+  <block>
+    <view class= "cloth"  wx:for="{{nation_img}}" wx:key="" wx:if="{{item.key==font}}"  bindtap="sonclick" data-img="{{item.img}}">
+      <image src="{{item.img}}" mode='aspectFit'></image>
+    </view>
+    <view class= "cloth"  wx:for="{{nation_img2}}" wx:key="" wx:if="{{item.key==font}}"  bindtap="sonclick" data-img="{{item.img}}">
+      <image src="{{item.img}}" mode='aspectFit'></image>
+    </view>
+  </block>
+  </view>
+</view>
+
+  
+	

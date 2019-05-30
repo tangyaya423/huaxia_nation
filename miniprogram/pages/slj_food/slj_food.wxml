@@ -1,0 +1,17 @@
+<view class='wholepage'>
+  <image src="{{img}}" class='img' bindtap="hhh"></image>
+  <view class='tit'>
+    <view class="thfk">
+      <view class='fk'></view><view class='fk'></view><view class='fk'></view>
+    </view>
+    
+    <view class='sxx'>
+      <text>{{font}}</text>
+    </view>
+    <block>
+      <view wx:for="{{inform}}" wx:key="" wx:if="{{item.key==font}}" class='content'>
+        <text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.information}}</text>
+      </view>
+    </block>
+  </view>
+</view>

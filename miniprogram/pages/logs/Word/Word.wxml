@@ -1,0 +1,54 @@
+
+<view class='Word'>
+    <view class='word_1'>
+      <view class='word_1_1'>
+          <view class='word_1_1_1'>
+            <view  class='word_1_1_1_a'></view>
+            <view class='word_1_1_1_c'>{{text_title1}}</view>
+            <view  class='word_1_1_1_b'></view>
+          </view>
+          <view class='word_1_1_2'>
+             <image src="{{image1}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='word_3'>
+          {{text1}}
+        </view> 
+      </view>
+        
+    </view>
+
+
+
+    <view class='word_1 word'>
+      <view class='word_1_1'>
+          <view class='word_1_1_1'>
+            <view  class='word_1_1_1_a'></view>
+            <view class='word_1_1_1_c'>{{text_title2}}</view>
+            <view  class='word_1_1_1_b'></view>
+          </view>
+          <view class='word_1_1_2'>
+             <image src="{{image2}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='word_3'>
+          {{text2}}
+        </view> 
+      </view>
+    </view>
+
+  <view class='word_1 word2'>
+      <view class='word_1_1'>
+          <view class='word_1_1_1'>
+            <view  class='word_1_1_1_a'></view>
+            <view class='word_1_1_1_c'>{{text_title3}}</view>
+            <view  class='word_1_1_1_b'></view>
+          </view>
+          <view class='word_1_1_2'>
+             <image src="{{image3}}"   mode="{{mode}}"></image>
+          </view>
+          <view class='word_3'>
+          {{text3}}   
+        </view> 
+      </view>
+    </view>
+   
+</view> 
